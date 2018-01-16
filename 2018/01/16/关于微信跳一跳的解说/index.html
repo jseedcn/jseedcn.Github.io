@@ -83,7 +83,7 @@ img{
 <h4 id="跳一跳分析"><a href="#跳一跳分析" class="headerlink" title="跳一跳分析"></a>跳一跳分析</h4><blockquote>
 <p>说做就做先对游戏进行了一番分析，游戏有个小人物然后跳到目标点物品中间为成功，反之失败，通过按压屏幕时间长短蓄力跳的远近到目标物品中间点。那么我们可以这样想首先小人点为A 目标点为B 然后把整个屏幕看作一个水平面，那么你会发现这就是一个求直角三角形边长的过程！</p>
 </blockquote>
-<h2 id=""><a href="#" class="headerlink" title=""></a><img src="file:///D:/Document%20And%20Settings2/Administrator/Desktop/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180116182509.jpg" alt="avatar 100px"></h2><h3 id="软件编写"><a href="#软件编写" class="headerlink" title="软件编写"></a>软件编写</h3><blockquote>
+<h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://jseedcn.github.io/pic/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180116182509.jpg" alt="avatar 100px"></h2><h3 id="软件编写"><a href="#软件编写" class="headerlink" title="软件编写"></a>软件编写</h3><blockquote>
 <p>首先我们可以通过模拟器来运行目标游戏，然后取出小人的目标点会取出一个坐标，如图所示 我们通过屏幕取点得出 点A 取出的点Xy 坐标为X：160 Y：616 点B为 X:318 Y：395 那么这样就好计算人物到目标点B距离了 只需要带入公式计算就出来了，最后算出来的距离为267 然后我们通过sleep 函数适当延迟就是弹跳力度了，如果有偏差可以适当添加个常数进行校正！</p>
 </blockquote>
 
