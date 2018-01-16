@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>%2F2018%2F01%2F16%2F%E5%85%B3%E4%BA%8E%E5%BE%AE%E4%BF%A1%E8%B7%B3%E4%B8%80%E8%B7%B3%E7%9A%84%E8%A7%A3%E8%AF%B4%2F</url>
-    <content type="text"><![CDATA[title: 关于微信跳一跳的解说 img{ width: 40%; padding-left: 15%;} 关于前言 最近无聊看见微信里面有个跳跳的游戏很火爆，朋友圈的游戏分老高老高了，自己玩儿了几把最后已150分告一段落还是经过无数次的跳飞屏幕实现的～生无可恋,看着朋友圈的朋友分那么高，我一个技术男，怎么可能甘于示弱，不存在的嘛！说做就做。 跳一跳分析 说做就做先对游戏进行了一番分析，游戏有个小人物然后跳到目标点物品中间为成功，反之失败，通过按压屏幕时间长短蓄力跳的远近到目标物品中间点。那么我们可以这样想首先小人点为A 目标点为B 然后把整个屏幕看作一个水平面，那么你会发现这就是一个求直角三角形边长的过程！ 软件编写 首先我们可以通过模拟器来运行目标游戏，然后取出小人的目标点会取出一个坐标，如图所示 我们通过屏幕取点得出 点A 取出的点Xy 坐标为X：160 Y：616 点B为 X:318 Y：395 那么这样就好计算人物到目标点B距离了 只需要带入公式计算就出来了，最后算出来的距离为267 然后我们通过sleep 函数适当延迟就是弹跳力度了，如果有偏差可以适当添加个常数进行校正！]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[关于新的一年的计划]]></title>
-    <url>%2F2018%2F01%2F16%2F%E5%85%B3%E4%BA%8E%E6%96%B0%E7%9A%84%E4%B8%80%E5%B9%B4%E7%9A%84%E8%AE%A1%E5%88%92%2F</url>
+    <url>%2F2018%2F12%2F31%2F%E5%85%B3%E4%BA%8E%E6%96%B0%E7%9A%84%E4%B8%80%E5%B9%B4%E7%9A%84%E8%AE%A1%E5%88%92%2F</url>
     <content type="text"><![CDATA[网页开发及桌面软件方面: 01.php、asp、css、html、Markdown、等等一些全部能独立开发一些项目，近期开发一个自己的爬虫网站爬去微信的一些文章纳为己用，还有一些小说网站。 02.每隔几天写几个爬虫软件或者有意思的软件，练练手。 03.近期需要写一个能观看通杀全网的在线视频vip播放电影及视频的app或者桌面软件最好两个全部写出来。 04.开发一个Markdown编辑器写文章能有表情图片插入和图片插入。 关于看书: 01.当然是把”小联”介绍的《我不喜欢这世界，我只喜欢你》这本小说看完，虽然不知道好不好看，但我决定试试看看哈哈。 02.每天看几篇关于php的书籍，和心理学文章！ 关于锻炼: 01.每天早上8点半起床，按时吃早饭，俯卧撑100个。 02.每隔三天出去走一走。]]></content>
   </entry>
   <entry>
+    <title><![CDATA[关于微信跳一跳的解说]]></title>
+    <url>%2F2018%2F01%2F16%2F%E5%85%B3%E4%BA%8E%E5%BE%AE%E4%BF%A1%E8%B7%B3%E4%B8%80%E8%B7%B3%E7%9A%84%E8%A7%A3%E8%AF%B4%2F</url>
+    <content type="text"><![CDATA[img{ width: 40%; padding-left: 15%; } 关于前言 最近无聊看见微信里面有个跳跳的游戏很火爆，朋友圈的游戏分老高老高了，自己玩儿了几把最后已150分告一段落还是经过无数次的跳飞屏幕实现的～生无可恋,看着朋友圈的朋友分那么高，我一个技术男，怎么可能甘于示弱，不存在的嘛！说做就做。 跳一跳分析 说做就做先对游戏进行了一番分析，游戏有个小人物然后跳到目标点物品中间为成功，反之失败，通过按压屏幕时间长短蓄力跳的远近到目标物品中间点。那么我们可以这样想首先小人点为A 目标点为B 然后把整个屏幕看作一个水平面，那么你会发现这就是一个求直角三角形边长的过程！ 软件编写 首先我们可以通过模拟器来运行目标游戏，然后取出小人的目标点会取出一个坐标，如图所示 我们通过屏幕取点得出 点A 取出的点Xy 坐标为X：160 Y：616 点B为 X:318 Y：395 那么这样就好计算人物到目标点B距离了 只需要带入公式计算就出来了，最后算出来的距离为267 然后我们通过sleep 函数适当延迟就是弹跳力度了，如果有偏差可以适当添加个常数进行校正！]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F01%2F16%2Fhello-world%2F</url>
+    <url>%2F2017%2F12%2F16%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
   <entry>
     <title><![CDATA[关于我]]></title>
-    <url>%2F2018%2F01%2F16%2FAbout%2F</url>
+    <url>%2F2017%2F01%2F16%2FAbout%2F</url>
     <content type="text"><![CDATA[我是谁?我是技术宅 精通VB、Php、asp、 等语言 Hello world 的编写。 我是网站站长？ 之前一直有用asp，php等语言搭建过一些博客也写过一些自己的主题，和自己写的博客，最后都各种原因导致无法继续写下去，不过这一次我会好好保存我的这个博客，谁叫它是我的青春呢,现在网站暂时寄托在github上，hexo强力驱动赞助，今后的日子我会分享一些我的作品和一些好玩儿的东西。 如何联系我？ QQ： 不闲聊，还是不公开好了…… 网易云音乐:网易云音乐 GitHub:jseedcn 本文作者为jseed，转载请注明。]]></content>
   </entry>
 </search>
